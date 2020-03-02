@@ -1,0 +1,36 @@
+{
+    "name": "cvaize/bsc-themes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cvaize",
+            "email": "cvaize@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.5|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BSC\\Themes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BSC\\Themes\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BSC\\Themes\\ThemesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
